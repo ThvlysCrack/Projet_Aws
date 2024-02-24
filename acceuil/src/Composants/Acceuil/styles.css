@@ -1,0 +1,199 @@
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../assets/pika.jpg');
+    background-size: contain;
+    background-position: center;
+    padding: 0 1%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0; /* Ajustez la marge en conséquence */
+  }
+  
+  .site-container {
+    position: relative;
+    top:    5%;
+    bottom: 120%; 
+    color: white;
+
+    font-family: "OCR A Std", monospace;
+
+  }
+  
+  .site-container p {
+    position : relative ;
+    top : -10px;
+    font-family: "OCR A Std", monospace;
+
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+  }
+  
+
+
+nav .logo {
+	width: 120px;
+    font-family: "OCR A Std", monospace;
+
+	cursor: pointer;
+}
+
+nav .cart {
+	width: 40px;
+	cursor: pointer;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+	padding-right: 40px;
+	text-align: right;
+	list-style-type: none;
+}
+
+ul li {
+	margin-right: 10px;
+}
+
+ul li a {
+	position: relative;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+ul li a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	transform: translateX(-50%) translateY(-5px);
+	height: 3px;
+	background: #ffcc00;
+	transition: 0.3s;
+}
+
+ul li a:hover::after {
+	width: 38%;
+}
+
+
+
+.site-container h1 {
+   line-height: 120px;
+  margin-left: -10px;
+  font-family: "Pokemon Solid", "Press Start 2P", Pixel Emulator, Roboto, Arial, "Comic Sans MS", "Segoe UI", sans-serif;
+  color: transparent;
+  -webkit-text-stroke: 4.5px #005BBB; 
+  background:  #FFCB05;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: animate 20s linear 2s infinite alternate;
+
+}
+
+@keyframes animate {
+  100% {
+      background-position: -500px 0;
+  }
+} 
+
+
+
+.droite {
+  font-family: 'Audiowide', sans-serif; 
+  font-size: 2.4rem; /*1.8*/
+  margin: auto; 
+  text-shadow: 0 0 10px rgba(255, 255, 0, 0.5); 
+  animation: titleAnimate 1s ease-in-out forwards, rise 2s ease-in-out 0.5s infinite forwards; /* Animation */
+  color: white;
+  opacity: 0;
+  /* padding-left: 50%; */
+  transform: translateY(20px);
+  font-family: "OCR A Std", monospace;
+  position: absolute;
+  bottom:   680px;    /*180*/
+}
+
+@keyframes titleAnimate {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes rise {
+  to {
+    text-shadow: 0em 0.01em #ff5, 0em 0.02em #ff5, 0em 0.02em 0.03em #ff5,
+          -0.01em 0.01em #333, -0.02em 0.02em #333, -0.03em 0.03em #333,
+          -0.04em 0.04em #333, -0.01em -0.01em 0.03em #000, -0.02em -0.02em 0.03em #000,
+          -0.03em -0.03em 0.03em #000;
+  
+     /* transform: translateY(-0.025em) translateX(0.04em);
+*/
+}}
+.site-container .row {
+        display: flex;
+        justify-content: flex-start; /* Alignez les éléments à gauche */
+        flex-wrap: wrap;
+        margin-top: 40px;
+}
+
+
+.social-icons {
+	position: absolute;
+	right: 5%;
+	bottom: 8%;
+}
+
+.social-icons a {
+	padding: 5px;
+	margin-right: 4px;
+}
+.btn {
+    background-color: #005BBB; 
+    color: white; 
+    border: 2px solid #005BBB; 
+    padding: 20px 70px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    border-radius: 10px; 
+    font-family: "OCR A Std", monospace;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+    display: inline-block;
+    margin: 0 185px;
+    margin-top: 20%;
+    left: 25%;
+    position: relative;
+}
+
+.btn:hover {
+    background-color: #ffdb4d; 
+    color: #333; 
+    border-color: #ffdb4d; 
+}
+.ppoke{
+  width: 7%;
+}
+.poke{
+  width: 7%;
+}
+.site-container h1 img {
+  margin: 0; /* Réinitialiser les marges */
+}
