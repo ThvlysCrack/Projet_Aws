@@ -26,16 +26,13 @@ const Accueil = () => {
 
       <section className="site-container">
         <p>Bienvenue à</p>
-        <h1><img src={P} className='poke'/><img src={pokeball} className='ppoke'/><img src={K} className='poke'/> <img src={E} className='poke'/> <img src={D} className='poke'/><img src={L} className='poke'/><img src={E} className='poke'/></h1>
-        
-        </section>
-        <div className="row">
-        <button onClick={play} className="btn">Défi quotidien</button>
-        <button onClick={play} className="btn">Connexion</button>
-          
-        </div>
+        <h1><img src={P} className='poke'/><img src={pokeball} className='ppoke'/><img src={K} className='poke'/> <img src={E} className='poke'/> <img src={D} className='poke'/><img src={L} className='poke'/><img src={E} className='poke'/></h1>       
+      </section>
       
-
+      <div className="row">
+        <button onClick={play} className="btn">Défi quotidien</button>
+        <button onClick={play} className="btn">Connexion</button>    
+      </div>
       <h1 className='droite'>Acceptez le défi et découvrez si vous avez les compétences nécessaires pour devenir un maître Pokémon !</h1>
     </div>
   );
