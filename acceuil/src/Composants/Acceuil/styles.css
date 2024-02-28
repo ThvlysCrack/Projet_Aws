@@ -25,9 +25,12 @@ body {
   
   nav {
     display: flex;
+    /*background-color: #000;
+    opacity: 40%; */
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    font-weight: bold;
     padding: 10px 0; /* Ajustez la marge en conséquence */
   }
   
@@ -50,9 +53,9 @@ body {
   }
   
 nav .logo {
-	width: 120px;
-    font-family: "OCR A Std", monospace;
-
+	width: 80px;
+  opacity: 100%;
+  font-family: "OCR A Std", monospace;
 	cursor: pointer;
 }
 

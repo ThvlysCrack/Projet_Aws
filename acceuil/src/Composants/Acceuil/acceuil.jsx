@@ -17,9 +17,10 @@ const Accueil = () => {
       <nav>
         <img src={NOUV} alt="" className="logo" />
         <ul>
-          <li><a href="#">Accueil</a></li>
+          <li><a href="/Accueil">Accueil</a></li>
           <li><a href="">Classements</a></li>
-          <li><a href="">Inscription</a></li>
+          <li><a href="/Connexion">Connexion</a></li>
+          <li><a href="/Inscription">Inscription</a></li>
         </ul>
         
       </nav>
@@ -31,7 +32,7 @@ const Accueil = () => {
       
       <div className="row">
         <button onClick={play} className="btn">Défi quotidien</button>
-        <button onClick={play} className="btn">Connexion</button>    
+        <button href="/Connexion"onClick={play} className="btn">Connexion</button>    
       </div>
       <h1 className='droite'>Acceptez le défi et découvrez si vous avez les compétences nécessaires pour devenir un maître Pokémon !</h1>
     </div>
