@@ -6,8 +6,9 @@ import LoginSignup from './Composants/LoginSignup/LoginSignup';
 function App() {
   return (
     <div>
-      {/*<LoginSignup/>*/}
-      <Accueil/> 
+      {/*<Accueil/> */}
+      <LoginSignup/>
+      
     </div>
   );
 }

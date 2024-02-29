@@ -33,8 +33,8 @@ const LoginSignup = () => {
         </div>
         {action=== "INSCRIPTION"?<div></div>:   <div className="forgot-password"><span>Mot de passe oublié?</span></div>}
         <div className="submit-container">
-            <div className={action==="CONNEXION"?"submit gary":"submit"} onClick={()=>{setAction("INSCRIPTION")}}>INSCRIPTION</div>
-            <div className={action==="INSCRIPTION"?"submit gay":"submit"} onClick={()=>{setAction("CONNEXION")}}>CONNEXION</div>
+            <div className={action==="CONNEXION"?"submit gray":"submit"} onClick={()=>{setAction("INSCRIPTION")}}>INSCRIPTION</div>
+            <div className={action==="INSCRIPTION"?"submit gray":"submit"} onClick={()=>{setAction("CONNEXION")}}>CONNEXION</div>
         </div>
     </div>
   )
