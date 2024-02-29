@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 import Accueil from './Composants/Acceuil/acceuil';
 import LoginSignup from './Composants/LoginSignup/LoginSignup';
+import BrowsingRoutes from './BrowsingRoutes';
 
 function App() {
   return (
     <div>
-      {/*<Accueil/> */}
-      <LoginSignup/>
+      {/*<Accueil/> <LoginSignup/> */}
+      <BrowsingRoutes/>
       
     </div>
   );

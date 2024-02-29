@@ -8,19 +8,19 @@ import K from '../assets/lettrek.png'
 import D from '../assets/D_.png'
 import L from '../assets/L.png'
 import E from '../assets/lettree.png'
-function play (){
+import { Link } from 'react-router-dom';
+/*function play (){
     new Audio(sound).play()
-}
-const Accueil = () => {
+}*/
+export const Accueil = () => {
   return (
-    <div className="container">
+    <div className="HomeContainer">
       <nav>
         <img src={NOUV} alt="" className="logo" />
         <ul>
-          <li><a href="/Accueil">Accueil</a></li>
-          <li><a href="">Classements</a></li>
-          <li><a href="/Connexion">Connexion</a></li>
-          <li><a href="/Inscription">Inscription</a></li>
+           <li><Link to="/Accueil">Accueil</Link></li>
+           <li><Link to="/Classements">Classements</Link></li>
+           <li><Link to="/Connexion">Connexion</Link></li>
         </ul>
         
       </nav>
@@ -30,10 +30,10 @@ const Accueil = () => {
         <h1><img src={P} className='poke'/><img src={pokeball} className='ppoke'/><img src={K} className='poke'/> <img src={E} className='poke'/> <img src={D} className='poke'/><img src={L} className='poke'/><img src={E} className='poke'/></h1>       
       </section>
       
-      <div className="row">
+      {/*<div className="row">
         <button onClick={play} className="btn">Défi quotidien</button>
         <button href="/Connexion"onClick={play} className="btn">Connexion</button>    
-      </div>
+        </div>*/}
       <h1 className='droite'>Acceptez le défi et découvrez si vous avez les compétences nécessaires pour devenir un maître Pokémon !</h1>
     </div>
   );

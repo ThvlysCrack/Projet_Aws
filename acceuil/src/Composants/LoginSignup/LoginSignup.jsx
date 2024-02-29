@@ -7,7 +7,7 @@ import inscription_icon from '../assets/INSCRIPTION.png'
 import connexion_icon from '../assets/CONNEXION.png'
 
 const LoginSignup = () => {
-    const[action,setAction] = useState("INSCRIPTION");
+    const[action,setAction] = useState("CONNEXION");
   return (
 
     <div className="container">
