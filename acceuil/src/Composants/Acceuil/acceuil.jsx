@@ -18,7 +18,7 @@ export const Accueil = () => {
       <nav>
         <img src={NOUV} alt="" className="logo" />
         <ul>
-           <li><Link to="/Accueil">Accueil</Link></li>
+           <li><Link to="/">Accueil</Link></li>
            <li><Link to="/Classements">Classements</Link></li>
            <li><Link to="/Connexion">Connexion</Link></li>
         </ul>
