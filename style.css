@@ -15,7 +15,46 @@
     transition: transform 0.3s; /* Smooth transition over 0.3 seconds */
 }
 
-#profilOps img:hover {
+#info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%; /* Adjust the initial width as needed */
+    height: auto;
+    transition: transform 0.3s; /* Smooth transition over 0.3 seconds */
+}
+
+#stat img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19%; /* Adjust the initial width as needed */
+    height: auto;
+    transition: transform 0.3s; /* Smooth transition over 0.3 seconds */
+}
+
+#palmares img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14%; /* Adjust the initial width as needed */
+    height: auto;
+    transition: transform 0.3s; /* Smooth transition over 0.3 seconds */
+}
+
+#perso img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%; /* Adjust the initial width as needed */
+    height: auto;
+    transition: transform 0.3s; /* Smooth transition over 0.3 seconds */
+}
+
+#info img:hover,
+#stat img:hover,
+#palmares img:hover,
+#perso img:hover{
     transform: scale(1.1); /* Scale the image by 10% on hover */
 }
 

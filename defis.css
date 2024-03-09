@@ -1,0 +1,86 @@
+#defiPng {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+#pokemyst img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 27%;
+    height: auto;
+    transition: tranform 0.3s;
+}
+
+#pokemyst img:hover {
+    transform: scale(1.1);
+}
+
+#silhouette img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 17%;
+    height: auto;
+    transition: tranform 0.3s;
+}
+
+#silhouette img:hover {
+    transform: scale(1.1);
+}
+
+#cap img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 14%;
+    height: auto;
+    transition: tranform 0.3s;
+}
+
+#cap img:hover {
+    transform: scale(1.1);
+}
+
+#type img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 9%;
+    height: auto;
+    transition: tranform 0.3s;
+}
+
+#type img:hover {
+    transform: scale(1.1);
+}
+
+#desc img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    height: auto;
+    transition: tranform 0.3s;
+}
+
+#desc img:hover {
+    transform: scale(1.1);
+}
+
+#pokemyst,
+#silhouette,
+#cap,
+#type,
+#desc {
+    margin-bottom: 20px; /* Ajoutez la marge en bas de chaque div */
+}
